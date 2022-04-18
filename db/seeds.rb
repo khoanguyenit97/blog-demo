@@ -10,6 +10,6 @@ def open_json(path)
 end
 
 User.upsert_all(open_json('db/seeds/users.json'))
-Article.upsert_all(open_json('db/seeds/articles'))
-Category.upsert_all(open_json('db/seeds/categories'))
-ArticleCategory.upsert_all(open_json('db/seeds/article_categories'))
+Article.upsert_all(open_json('db/seeds/articles.json'))
+Category.upsert_all(open_json('db/seeds/categories.json'))
+ArticleCategory.upsert_all(open_json('db/seeds/article_categories.json'))
