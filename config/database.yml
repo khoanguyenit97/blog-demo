@@ -18,16 +18,16 @@ default: &default
   adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
-#  username: postgres
-#  password: password
-  username: <%= ENV['POSTGRES_USERNAME'] %>
-  password: <%= ENV['POSTGRES_PASSWORD'] %>
+  username: postgres
+  password: password
+#  username: <%#= ENV['POSTGRES_USERNAME'] %>
+#  password: <%#= ENV['POSTGRES_PASSWORD'] %>
   port: 5432
   host: localhost
 
 development:
   <<: *default
-  database: message_development
+  database: blog-demo_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -61,7 +61,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: message_test
+  database: blog-demo_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -85,6 +85,6 @@ test:
 #
 production:
   <<: *default
-  database: message_production
-  username: message
-  password: <%= ENV['MESSAGE_DATABASE_PASSWORD'] %>
+  database: blog-demo_production
+  username: blog-demo
+  password: <%= ENV['BLOG-DEMO_DATABASE_PASSWORD'] %>

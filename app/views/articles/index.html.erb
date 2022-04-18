@@ -1,0 +1,10 @@
+<!--<p style="color: green"><%#= notice %></p>-->
+<h1 class="text-center mt-4"> Listing all articles</h1>
+
+<div class="flickr_pagination text-center">
+    <%= will_paginate @articles, :container => false %>
+</div>
+<%= render 'articles' %>
+<div class="flickr_pagination mb-4 text-center">
+  <%= will_paginate @articles, :container => false %>
+</div>
