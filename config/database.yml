@@ -18,10 +18,10 @@ default: &default
   adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
-  username: postgres
-  password: password
-#  username: <%#= ENV['POSTGRES_USERNAME'] %>
-#  password: <%#= ENV['POSTGRES_PASSWORD'] %>
+#  username: postgres
+#  password: password
+  username: <%= ENV['POSTGRES_USERNAME'] %>
+  password: <%= ENV['POSTGRES_PASSWORD'] %>
   port: 5432
   host: localhost
 

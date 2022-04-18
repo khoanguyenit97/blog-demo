@@ -1,0 +1,58 @@
+[
+  {
+    "id": 4,
+    "title": "The Super Bowl",
+    "description": "The Super Bowl is so big that even the commercials are worth watching. The first Super Bowl (held in January 1967) was played to plenty of empty seats and a waning TV audience. But now Super Bowl Sundays",
+    "created_at": "2022-04-06 19:44:08.000000",
+    "updated_at": "2022-04-06 19:44:09.000000",
+    "user_id": 4
+  },
+  {
+    "id": 3,
+    "title": "World Cup Soccer",
+    "description": "Thirty-two nations play",
+    "created_at": "2022-04-06 19:43:48.000000",
+    "updated_at": "2022-04-06 19:43:50.000000",
+    "user_id": 3
+  },
+  {
+    "id": 1,
+    "title": "The 24 Hours of Le Mans",
+    "description": " France",
+    "created_at": "2022-04-06 19:41:39.000000",
+    "updated_at": "2022-04-06 19:41:43.000000",
+    "user_id": 1
+  },
+  {
+    "id": 2,
+    "title": "The Olympic Games",
+    "description": "It’s hard to imagine that Zeus and the other gods lording over ancient Greece ever envisioned the global event the modern Olympiad has become. For a two-week span",
+    "created_at": "2022-04-06 19:42:13.000000",
+    "updated_at": "2022-04-06 19:42:15.000000",
+    "user_id": 2
+  },
+  {
+    "id": 5,
+    "title": "The Olympic Games",
+    "description": "It’s hard to imagine that Zeus and the other gods lording over ancient Greece ever envisioned the global event the modern Olympiad has become. For a two-week span",
+    "created_at": "2022-04-06 19:42:13.000000",
+    "updated_at": "2022-04-06 19:42:15.000000",
+    "user_id": 2
+  },
+  {
+    "id": 6,
+    "title": "Migration Crises Test Rich Countries.",
+    "description": "The downturn in international migration flows in 2020 triggered by COVID-19 continued into 2021. That didn’t translate",
+    "created_at": "2022-04-06 19:46:47.000000",
+    "updated_at": "2022-04-06 19:46:40.000000",
+    "user_id": 3
+  },
+  {
+    "id": 7,
+    "title": "Iran’s Nuclear Program Advances. ",
+    "description": "The year began with optimism that the Iran nuclear deal might be revived three years after President Donald Trump quit the agreement. Joe Biden came to office calling Trump’s Iran policy a “self-inflicted disaster” and pledging to return to the deal if Iran returned to compliance. Making that happen was easier said than done",
+    "created_at": "2022-04-06 19:46:43.000000",
+    "updated_at": "2022-04-06 19:46:44.000000",
+    "user_id": 4
+  }
+]

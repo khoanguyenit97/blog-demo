@@ -5,8 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.create(username: 'KhoaNguyen', password: 'password')
-User.create(username: 'khoa', password: 'TuanPham')
-User.create(username: 'ThaoNgan', password: '00000000')
-User.create(username: 'Khoa3', password: 'password')
-User.create(username: 'Khoa4', password: 'password')
+def open_json(path)
+  ActiveSupport::JSON.decode(File.read(Rails.root.join(path)))
+end
+
+User.upsert_all(open_json('db/seeds/users.json'))
+Article.upsert_all(open_json('db/seeds/articles'))
+Category.upsert_all(open_json('db/seeds/categories'))
+ArticleCategory.upsert_all(open_json('db/seeds/article_categories'))
